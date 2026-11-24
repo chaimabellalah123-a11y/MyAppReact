@@ -10,7 +10,7 @@
 8. snaana Jenkinsfile w aamalna git add. w commit w push w baaed aamlana build l jenkinsfile eli ktebna fih les steps 
 
 ## Accès
-- Client : http://localhost:3000
+- Client : http://localhost:3001
 - API : http://localhost:9000
 
 ## Captures
