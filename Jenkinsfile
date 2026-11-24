@@ -22,10 +22,11 @@ pipeline {
         }
 
         stage('Stop Old Containers') {
-            steps {
-                bat 'docker compose down'
-            }
-        }
+    steps {
+        bat 'docker compose down'
+        bat 'docker rm -f mongodb server client || exit 0'
+    }
+}
 
         stage('Run with Docker Compose') {
             steps {
